@@ -88,6 +88,7 @@ function InfiniteData() {
         ) : (
           !hasNextPage && <p className="text-muted"></p>
         )}
+        
       </div>
       {isFetching && !isFetchingNextPage && (
         <div className="d-flex justify-content-center text-primary">
